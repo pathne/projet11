@@ -1,0 +1,40 @@
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.main-nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.main-nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+.main-nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav-logo-image {
+  max-width: 100%;
+  width: 200px;
+}
+
+.no-style-button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  color: #2c3e50;
+}
